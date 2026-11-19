@@ -67,7 +67,7 @@ AI туслахдаа бичнэ:
 
 ## Үнэ
 
-Апп платформ сард 6,900₮-өөс (НӨАТ орсон). Бүрэн жагсаалт: https://exacloud.mn ·
+Апп платформ сард 6,900₮-өөс (НӨАТ орсон), **FREE14** кодоор хамгийн бага багц 14 хоног үнэгүй. Vibe coding-ийн бүрэн танилцуулга: https://exacloud.mn/vibe-coding/ · бүрэн жагсаалт: https://exacloud.mn ·
 гарын авлага: https://panel.exacloud.mn/static/guide.html#ai
 
 ---
@@ -81,4 +81,4 @@ on eXa”*. The assistant suggests a plan and a price, gives you a QPay link, an
 serves it at `https://<app>.exa-vps.com`. The assistant cannot delete, stop or reconfigure anything, cannot see your
 app's secret env values, and never pays for you.
 
-Support: hello@exacloud.mn
+More: https://exacloud.mn/en/vibe-coding/ · Support: hello@exacloud.mn
