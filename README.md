@@ -67,7 +67,7 @@ AI туслахдаа бичнэ:
 
 ## Үнэ
 
-Апп платформ сард 6,900₮-өөс (НӨАТ орсон), **FREE14** кодоор хамгийн бага багц 14 хоног үнэгүй. Vibe coding-ийн бүрэн танилцуулга: https://exacloud.mn/vibe-coding/ · бүрэн жагсаалт: https://exacloud.mn ·
+Апп платформ сард 6,900₮-өөс (НӨАТ-гүй, төлөхөд +10%), **FREE14** кодоор хамгийн бага багц 14 хоног үнэгүй. Vibe coding-ийн бүрэн танилцуулга: https://exacloud.mn/vibe-coding/ · бүрэн жагсаалт: https://exacloud.mn ·
 гарын авлага: https://panel.exacloud.mn/static/guide.html#ai
 
 ---
