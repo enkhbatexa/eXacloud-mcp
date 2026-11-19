@@ -15,7 +15,7 @@ AI туслах репог уншаад тохирох багц, үнийг хэ
 ## 1. AI туслахаа холбох (нэг удаа)
 
 **Claude апп / Claude.ai / Claude Desktop** (хамгийн энгийн, команд хэрэггүй) —
-[Settings → Connectors](https://claude.ai/settings/connectors) → *Add custom connector* →
+зүүн цэсний **Customize** → **Connectors** → **+** / *Add custom connector* →
 `https://panel.exacloud.mn/mcp` → Add → Connect. Дараа нь энгийн шинэ чат нээнэ.
 
 **Claude Code** (зөвхөн терминалд, чат руу биш; зөвшөөртөл терминалыг хаахгүй)
@@ -54,7 +54,7 @@ AI туслахдаа (холбосон чатад) бичнэ:
 >
 > ЭХЛЭЭД ШАЛГА: exa_plan_for_repo гэх мэт eXa-гийн хэрэгслүүд чамд байгаа юу? Байхгүй бол юу ч суулгах,
 > терминал/Claude Code ажиллуулах, өөр арга хайх гэж БҮҮ оролд. Зөвхөн надад яг эдгээр алхмыг хэлээд зогс:
-> 1) Settings → Connectors → «Add custom connector» (эсвэл «+») 2) URL: https://panel.exacloud.mn/mcp → Add → Connect
+> 1) Customize (зүүн цэс) → Connectors → «+» / «Add custom connector» 2) URL: https://panel.exacloud.mn/mcp → Add → Connect
 > 3) eXa хуудсан дээр нэвтэрч «Зөвшөөрөх» 4) Шинэ чат нээж энэ промптыг дахин илгээ.
 
 Дараа нь: «шинэ кодоо deploy хий», «лог харуул», «миний үйлчилгээ юу байна?».
@@ -86,7 +86,7 @@ AI туслахдаа (холбосон чатад) бичнэ:
 
 Deploy a GitHub repo to [eXa Cloud](https://exacloud.mn) (Mongolia) from your AI assistant. Add the remote MCP
 server `https://panel.exacloud.mn/mcp` (OAuth) to Claude Code, Claude.ai, ChatGPT (developer mode), Codex or
-Gemini CLI as shown above (in the Claude app use Settings → Connectors — never paste the terminal commands into a chat), approve it once on the eXa consent page, then ask: *“Deploy https://github.com/me/app
+Gemini CLI as shown above (in the Claude app use Customize → Connectors — never paste the terminal commands into a chat), approve it once on the eXa consent page, then ask: *“Deploy https://github.com/me/app
 on eXa”*. The assistant suggests a plan and a price, gives you a QPay link, and after you pay, eXa builds the repo and
 serves it at `https://<app>.exa-vps.com`. The assistant cannot delete, stop or reconfigure anything, cannot see your
 app's secret env values, and never pays for you.
