@@ -15,7 +15,7 @@ AI туслах репог уншаад тохирох багц, үнийг хэ
 ## 1. AI туслахаа холбох (нэг удаа)
 
 **Claude апп / Claude.ai / Claude Desktop** (хамгийн энгийн, команд хэрэггүй) —
-зүүн цэсний **Customize** → **Connectors** → **+** / *Add custom connector* →
+**Customize** (зүүн цэс, эсвэл Settings → Customize) → **Connectors** → **+** / *Add custom connector* →
 `https://panel.exacloud.mn/mcp` → Add → Connect. Дараа нь энгийн шинэ чат нээнэ.
 
 **Claude Code** (зөвхөн терминалд, чат руу биш; зөвшөөртөл терминалыг хаахгүй)
@@ -54,7 +54,7 @@ AI туслахдаа (холбосон чатад) бичнэ:
 >
 > ЭХЛЭЭД ШАЛГА: exa_plan_for_repo гэх мэт eXa-гийн хэрэгслүүд чамд байгаа юу? Байхгүй бол юу ч суулгах,
 > терминал/Claude Code ажиллуулах, өөр арга хайх гэж БҮҮ оролд. Зөвхөн надад яг эдгээр алхмыг хэлээд зогс:
-> 1) Customize (зүүн цэс) → Connectors → «+» / «Add custom connector» 2) URL: https://panel.exacloud.mn/mcp → Add → Connect
+> 1) Customize (зүүн цэс, эсвэл Settings → Customize) → Connectors → «+» / «Add custom connector» 2) URL: https://panel.exacloud.mn/mcp → Add → Connect
 > 3) eXa хуудсан дээр нэвтэрч «Зөвшөөрөх» 4) Шинэ чат нээж энэ промптыг дахин илгээ.
 
 Дараа нь: «шинэ кодоо deploy хий», «лог харуул», «миний үйлчилгээ юу байна?».
