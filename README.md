@@ -65,8 +65,8 @@ codex mcp login exa
 
 ## Аюулгүй байдал
 
-- AI туслах **чадахгүй**: юу ч устгах, зогсоох, захиалга цуцлах; апп-ын тохиргоо (env, порт, команд), DNS бичлэг,
-  порт, VPS-ийн тохиргоо өөрчлөх; нууц үг / SSH key / Authenticator / гишүүд өөрчлөх, мөнгө шилжүүлэх. Апп-ын нууц
+- AI туслах **чадахгүй**: юу ч устгах, зогсоох, захиалга цуцлах; байгаа апп-ын тохиргоо (env, порт, команд), DNS
+  бичлэг, VPS-ийн тохиргоо өөрчлөх, VPS-ийн порт нээх; нууц үг / SSH key / Authenticator / гишүүд өөрчлөх, мөнгө шилжүүлэх. Апп-ын нууц
   тохиргооны (env) утгыг харахгүй. Таны өөрийн домэйныг апп-д **холбож** чадна.
 - Төлбөрийг **үргэлж та өөрөө** QPay-ээр төлнө. Үнэ НӨАТ-гүй, төлөхөд 10% нэмэгдэнэ. НӨАТ-ын баримтыг төлсний дараа
   panel.exacloud.mn → Бүртгэл → Захиалгууд → тухайн захиалга дотроос 3 сарын дотор үүсгэнэ.
@@ -86,8 +86,8 @@ Deploy a GitHub repo to [eXa Cloud](https://exacloud.mn) (Mongolia) from your AI
 server `https://panel.exacloud.mn/mcp` (OAuth) to Claude Code, Claude.ai, ChatGPT (developer mode), Codex or
 Gemini CLI as shown above (in the Claude app use Customize → Connectors — never paste the terminal commands into a chat), approve it once on the eXa consent page, then ask: *“Deploy https://github.com/me/app
 on eXa”*. The assistant suggests a plan and a price, gives you a QPay link, and after you pay, eXa builds the repo and
-serves it at `https://<app>.exa-vps.com`. The assistant cannot delete or stop anything, cannot change app settings,
-DNS records, ports or VPS settings (it can connect your own domain to an app), cannot see your app's secret env values,
+serves it at `https://<app>.exa-vps.com`. The assistant cannot delete or stop anything, cannot change an existing app's
+settings, DNS records or VPS settings, cannot open VPS ports (it can connect your own domain to an app), cannot see your app's secret env values,
 and never pays for you.
 
 More: https://exacloud.mn/en/vibe-coding/ · Support: hello@exacloud.mn
