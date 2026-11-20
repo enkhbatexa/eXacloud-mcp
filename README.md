@@ -61,12 +61,15 @@ codex mcp login exa
 | `exa_wait` | Төлбөр → build → `https://нэр.exa-vps.com` хүртэл дагана |
 | `exa_app`, `exa_redeploy` | Төлөв, лог; шинэ commit-ийг дахин deploy |
 | `exa_account`, `exa_prices`, `exa_orders` | Үйлчилгээ, үнэ, захиалга |
+| `exa_connect_domain`, `exa_domain_status` | Өөрийн домэйныг апп-д холбох (NS-ийг та эсвэл таны AI хөтөч дээр солино), идэвхжсэн эсэх |
 
 ## Аюулгүй байдал
 
-- AI туслах **чадахгүй**: юу ч устгах, зогсоох, тохиргоо өөрчлөх, захиалга цуцлах, нууц үг / SSH key /
-  Authenticator / гишүүд өөрчлөх, мөнгө шилжүүлэх. Апп-ын нууц тохиргооны (env) утгыг харахгүй.
-- Төлбөрийг **үргэлж та өөрөө** QPay-ээр төлнө (НӨАТ-ын баримт автоматаар).
+- AI туслах **чадахгүй**: юу ч устгах, зогсоох, захиалга цуцлах; апп-ын тохиргоо (env, порт, команд), DNS бичлэг,
+  порт, VPS-ийн тохиргоо өөрчлөх; нууц үг / SSH key / Authenticator / гишүүд өөрчлөх, мөнгө шилжүүлэх. Апп-ын нууц
+  тохиргооны (env) утгыг харахгүй. Таны өөрийн домэйныг апп-д **холбож** чадна.
+- Төлбөрийг **үргэлж та өөрөө** QPay-ээр төлнө. Үнэ НӨАТ-гүй, төлөхөд 10% нэмэгдэнэ. НӨАТ-ын баримтыг төлсний дараа
+  panel.exacloud.mn → Бүртгэл → Захиалгууд → тухайн захиалга дотроос 3 сарын дотор үүсгэнэ.
 - Холбоосыг хүссэн үедээ салгана: panel.exacloud.mn → Бүртгэл → Аюулгүй байдал → **AI туслахууд** → Салгах.
 - OAuth 2.1 + PKCE; токен 1 цаг, refresh 30 хоног (ээлжлэн солигдоно).
 
@@ -83,7 +86,8 @@ Deploy a GitHub repo to [eXa Cloud](https://exacloud.mn) (Mongolia) from your AI
 server `https://panel.exacloud.mn/mcp` (OAuth) to Claude Code, Claude.ai, ChatGPT (developer mode), Codex or
 Gemini CLI as shown above (in the Claude app use Customize → Connectors — never paste the terminal commands into a chat), approve it once on the eXa consent page, then ask: *“Deploy https://github.com/me/app
 on eXa”*. The assistant suggests a plan and a price, gives you a QPay link, and after you pay, eXa builds the repo and
-serves it at `https://<app>.exa-vps.com`. The assistant cannot delete, stop or reconfigure anything, cannot see your
-app's secret env values, and never pays for you.
+serves it at `https://<app>.exa-vps.com`. The assistant cannot delete or stop anything, cannot change app settings,
+DNS records, ports or VPS settings (it can connect your own domain to an app), cannot see your app's secret env values,
+and never pays for you.
 
 More: https://exacloud.mn/en/vibe-coding/ · Support: hello@exacloud.mn
